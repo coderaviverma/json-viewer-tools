@@ -100,3 +100,6 @@ Open an issue or reach out via the website.
 
 🔗 Website: https://jsonviewertool.com
 
+Also Featured on Flipboard:
+https://flipboard.com/@jsonviewertool/jsonviewertool-k7ccm91fz/json-viewer-tool-free-online-json-viewer-formatter-editor/a-DxywQH1nTZitulB4hJDQwQ%3Aa%3A4165248032-e36330d7b8%2Fjsonviewertool.com
+
