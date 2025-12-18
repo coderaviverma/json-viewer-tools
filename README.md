@@ -50,8 +50,8 @@ Convert between JSON and YAML formats easily.
 
 ### 🔹 JSON ↔ XML Converter
 Convert between JSON and XML formats easily.
-👉 [https://jsonviewertool.com/json-to-yaml](https://jsonviewertool.com/json-to-xml)  
-👉 [https://jsonviewertool.com/yaml-to-json](https://jsonviewertool.com/xml-to-json)
+👉 [https://jsonviewertool.com/json-to-xml](https://jsonviewertool.com/json-to-xml)  
+👉 [https://jsonviewertool.com/xml-to-json](https://jsonviewertool.com/xml-to-json)
 
 ### 🔹 UUID Generator
 Generate UUID (v4) values instantly.
