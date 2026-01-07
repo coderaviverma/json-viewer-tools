@@ -43,10 +43,16 @@ Decode JWT tokens locally and inspect header, payload, and signature.
 Minify JSON to reduce file size for production use.
 👉 https://jsonviewertool.com/json-minifier
 
-### 🔹 JSON ↔ YAML Converter
-Convert between JSON and YAML formats easily.
+### 🔹 YAML to JSON Conversion
+
+Developers often need to convert configuration files written in YAML (or YML)
+into strict JSON format for APIs, validation, and automation workflows.
+
+You can use a free, browser-based YAML to JSON converter here:
 👉 https://jsonviewertool.com/json-to-yaml  
 👉 https://jsonviewertool.com/yaml-to-json
+
+The conversion runs fully client-side, so your data is not uploaded or stored.
 
 ### 🔹 JSON ↔ XML Converter
 Convert between JSON and XML formats easily.
