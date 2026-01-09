@@ -28,10 +28,10 @@ jobs:
           push: true
           tags: jsonviewertool/json-viewer-tool:latest
 
-      - name: Sync README to Docker Hub
-        uses: peter-evans/dockerhub-description@v4
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: jsonviewertool/json-viewer-tool
-          readme-filepath: ./README.md
+      # - name: Sync README to Docker Hub
+      #   uses: peter-evans/dockerhub-description@v4
+      #   with:
+      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
+      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
+      #     repository: jsonviewertool/json-viewer-tool
+      #     readme-filepath: ./README.md
