@@ -12,6 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
@@ -21,17 +24,12 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push (latest)
+      - name: Build and push (multi-arch)
         uses: docker/build-push-action@v6
         with:
           context: ./docker
           push: true
-          tags: jsonviewertool/json-viewer-tool:latest
-
-      # - name: Sync README to Docker Hub
-      #   uses: peter-evans/dockerhub-description@v4
-      #   with:
-      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
-      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
-      #     repository: jsonviewertool/json-viewer-tool
-      #     readme-filepath: ./README.md
+          platforms: linux/amd64,linux/arm64
+          tags: |
+            jsonviewertool/json-viewer-tool:latest
+            jsonviewertool/json-viewer-tool:${{ github.sha }}
