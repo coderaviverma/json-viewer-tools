@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JSON Viewer & Formatter (Client-Side Demo) | JSONViewerTool</title>
+
+  <meta name="description"
+        content="Free JSON Viewer demo: format, prettify, validate and view JSON in a clean tree-style preview. Runs 100% client-side (no upload). Try the full tool on JSONViewerTool." />
+
+  <meta name="keywords"
+        content="json viewer, json formatter, prettify json, json validator, json tree view, client side json tool, no upload json" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Open Graph (nice previews when shared) -->
+  <meta property="og:title" content="JSON Viewer & Formatter (Client-Side Demo) | JSONViewerTool" />
+  <meta property="og:description" content="Format + validate JSON instantly in your browser (no upload). Open the full JSON Viewer tool on JSONViewerTool." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="badge">100% client-side • No upload • Privacy-safe</div>
+
+      <h1>JSON Viewer & Formatter</h1>
+      <p class="sub">
+        Paste JSON → prettify + validate → copy formatted output.
+        This is a lightweight demo built to funnel you to the full tool.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="https://jsonviewertool.com/json-viewer" target="_blank" rel="noopener">
+          Open Full JSON Viewer Tool →
+        </a>
+        <a class="btn ghost" href="https://jsonviewertool.com" target="_blank" rel="noopener">
+          Explore All Tools
+        </a>
+      </div>
+
+      <p class="meta">
+        Tip: Try invalid JSON to see error highlighting.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Input JSON</h2>
+        <div class="actions">
+          <button class="btn small" id="btnSample">Load Sample</button>
+          <button class="btn small" id="btnMinify">Minify</button>
+          <button class="btn small" id="btnFormat">Format</button>
+          <button class="btn small" id="btnCopy">Copy Output</button>
+          <button class="btn small danger" id="btnClear">Clear</button>
+        </div>
+      </div>
+
+      <textarea id="input" spellcheck="false" placeholder='Paste JSON here...'></textarea>
+
+      <div class="status-row">
+        <div id="status" class="status">Ready.</div>
+        <div class="hint">
+          Full tool: <a href="https://jsonviewertool.com/json-viewer" target="_blank" rel="noopener">jsonviewertool.com/json-viewer</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Output (Formatted JSON)</h2>
+      </div>
+
+      <pre id="output" class="output" aria-live="polite"></pre>
+    </section>
+
+    <!-- SEO content -->
+    <section class="seo">
+      <h2>About this JSON Viewer Demo</h2>
+      <p>
+        This page is a small <strong>JSON Viewer + Formatter</strong> demo that runs entirely in your browser.
+        Your JSON data never leaves your device. Use it to quickly prettify JSON,
+        validate syntax, and copy clean formatted output.
+      </p>
+
+      <h3>What you can do here</h3>
+      <ul>
+        <li>Format (prettify) JSON with indentation</li>
+        <li>Minify JSON for compact output</li>
+        <li>Validate JSON and show clear error messages</li>
+        <li>Copy formatted JSON in one click</li>
+      </ul>
+
+      <h3>Try the full version</h3>
+      <p>
+        For a richer experience (tree view, conversions, bigger input, and more utilities),
+        use the full JSON Viewer tool:
+        <a href="https://jsonviewertool.com/json-viewer" target="_blank" rel="noopener">
+          JSONViewerTool – JSON Viewer
+        </a>.
+      </p>
+
+      <p class="seo-keywords">
+        Keywords: JSON Viewer, JSON Formatter, JSON Prettifier, JSON Validator, tree view JSON, client-side JSON tool, no upload JSON.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="foot-left">
+        Built by <a href="https://jsonviewertool.com" target="_blank" rel="noopener">JSONViewerTool</a> • 100% client-side
+      </div>
+      <div class="foot-right">
+        <a href="https://jsonviewertool.com/json-to-csv" target="_blank" rel="noopener">JSON → CSV</a>
+        <span class="sep">•</span>
+        <a href="https://jsonviewertool.com/yaml-to-json" target="_blank" rel="noopener">YAML → JSON</a>
+        <span class="sep">•</span>
+        <a href="https://jsonviewertool.com/json-to-xml" target="_blank" rel="noopener">JSON → XML</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
