@@ -17,51 +17,82 @@ All tools work **locally in your browser** — your data never leaves your machi
 
 ---
 
-## 🚀 Available Tools
 
-### 🔹 JSON Viewer & Formatter
-View, format, and prettify JSON with syntax highlighting.
-👉 https://jsonviewertool.com
+## ⭐ Popular Tools
 
-### 🔹 JSON Validator
-Validate JSON and instantly identify syntax errors.
-👉 https://jsonviewertool.com/json-validator
+### 🔹 Core JSON
+- **JSON Viewer** — view JSON in a collapsible tree  
+  https://jsonviewertool.com/json-viewer
+- **JSON Formatter** — prettify / beautify JSON instantly  
+  https://jsonviewertool.com/json-formatter
+- **JSON Validator** — validate JSON & locate syntax errors  
+  https://jsonviewertool.com/json-validator
+- **JSON Minifier** — compress JSON for production  
+  https://jsonviewertool.com/json-minifier
+- **JSON Compare** — diff two JSON payloads  
+  https://jsonviewertool.com/json-compare
 
-### 🔹 JSON to CSV Converter
-Convert JSON data into CSV format for Excel and spreadsheets.
-👉 https://jsonviewertool.com/json-to-csv
+### 🔁 Converters
+- **YAML → JSON** — debug Kubernetes & CI configs quickly  
+  https://jsonviewertool.com/yaml-to-json
+- **JSON → YAML** — convert JSON configs to YAML  
+  https://jsonviewertool.com/json-to-yaml
+- **JSON → CSV** — export API responses to CSV for Excel/Sheets  
+  https://jsonviewertool.com/json-to-csv
+- **CSV → JSON** — convert spreadsheets into structured JSON  
+  https://jsonviewertool.com/csv-to-json
+- **JSON → XML** — integrate with legacy systems  
+  https://jsonviewertool.com/json-to-xml
+- **XML → JSON** — convert XML/SOAP responses to modern JSON  
+  https://jsonviewertool.com/xml-to-json
+- **JSON → Excel** — one-click `.xlsx` export  
+  https://jsonviewertool.com/json-to-excel
 
-### 🔹 CSV to JSON Converter
-Convert CSV files into structured JSON objects.
-👉 https://jsonviewertool.com/csv-to-json
+### 🧠 Advanced / Developer Utilities
+- **JSON Merge** — merge multiple JSON objects  
+  https://jsonviewertool.com/json-merge
+- **JSON Flatten / Unflatten** — handle deeply nested JSON  
+  https://jsonviewertool.com/json-flatten
+- **JSONPath / JMESPath** — query JSON like SQL  
+  https://jsonviewertool.com/json-path
+- **JSON Schema Validator** — validate JSON using schema rules  
+  https://jsonviewertool.com/json-schema-validator
+- **JSON Sample Generator** — generate mock JSON data  
+  https://jsonviewertool.com/json-sample-generator
+- **JSON Size Analyzer** — measure payload size for APIs  
+  https://jsonviewertool.com/json-size-analyzer
 
-### 🔹 JWT Decoder
-Decode JWT tokens locally and inspect header, payload, and signature.
-👉 https://jsonviewertool.com/jwt-decoder
+### 🔐 Encoding & Security
+- **JWT Decoder** — decode JWT header/payload/signature  
+  https://jsonviewertool.com/jwt-decoder
+- **Base64 Encoder** — encode text/files to Base64  
+  https://jsonviewertool.com/base64-encoder
+- **Base64 Decoder** — decode Base64 data  
+  https://jsonviewertool.com/base64-decoder
+- **UUID Generator** — generate RFC-compliant UUIDs  
+  https://jsonviewertool.com/uuid-generator
 
-### 🔹 JSON Minifier
-Minify JSON to reduce file size for production use.
-👉 https://jsonviewertool.com/json-minifier
+### 🧰 Text & Misc
+- **JSON Escape / Unescape** — escape strings safely  
+  https://jsonviewertool.com/json-escape
+- **Compare Clips (Text Diff)** — compare any text quickly  
+  https://jsonviewertool.com/compare-clips
 
-### 🔹 YAML to JSON Conversion
+➡️ **Explore all tools:** https://jsonviewertool.com/
 
-Developers often need to convert configuration files written in YAML (or YML)
-into strict JSON format for APIs, validation, and automation workflows.
+---
 
-You can use a free, browser-based YAML to JSON converter here:
-👉 https://jsonviewertool.com/json-to-yaml  
-👉 https://jsonviewertool.com/yaml-to-json
+## 🧩 Ecosystem (CLI + SDK)
 
-The conversion runs fully client-side, so your data is not uploaded or stored.
+- 🐍 **CLI (Python / PyPI):** https://pypi.org/project/jsonviewertool-cli/
+- ☕ **Java Utilities SDK:** https://github.com/coderaviverma/jsonviewertool-utils
 
-### 🔹 JSON ↔ XML Converter
-Convert between JSON and XML formats easily.
-👉 [https://jsonviewertool.com/json-to-xml](https://jsonviewertool.com/json-to-xml)  
-👉 [https://jsonviewertool.com/xml-to-json](https://jsonviewertool.com/xml-to-json)
+---
 
-### 🔹 UUID Generator
-Generate UUID (v4) values instantly.
-👉 https://jsonviewertool.com/uuid-generator
+## 🛡️ Privacy & Security
+- No server-side processing of your JSON
+- No file uploads
+- Everything runs locally in your browser
 
 ---
 
