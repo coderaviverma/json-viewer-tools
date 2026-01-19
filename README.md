@@ -82,6 +82,19 @@ All tools work **locally in your browser** — your data never leaves your machi
 
 ---
 
+## Sample JSON Datasets for API Testing
+
+📊 Dataset DOI (Zenodo): https://zenodo.org/records/18301630  
+🏛 Harvard Dataverse: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZE8W9H  
+🎓 ICPSR: (add once approved)
+
+Used for:
+- API testing
+- JSON validation
+- Parser benchmarking
+- 
+---
+
 ## 🧩 Ecosystem (CLI + SDK)
 
 - 🐍 **CLI (Python / PyPI):** https://pypi.org/project/jsonviewertool-cli/
